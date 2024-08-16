@@ -6,7 +6,7 @@ import astronaut2 from "../../../assets/goal/astronaut2.png";
 const Goal = () => {
   return (
     <div className="goal">
-      <div className="mx-5 lg:container lg:mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 py-20 font-['Inter']">
+      <div className="mx-5 lg:container lg:mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 py-20 ">
         {/* Company Goal Section */}
         <div className="flex justify-center items-center text-center md:text-left">
           <div>

@@ -2,7 +2,7 @@ import "./Explore.css";
 const Explore = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2">
-      <div className="cyber lg:container lg:mx-auto font-[Inter] font-semibold text-white text-end p-5 lg:p-20">
+      <div className="cyber lg:container lg:mx-auto  font-semibold text-white text-end p-5 lg:p-20">
         <h3 className="text-[30px]">360D SOUL LTD</h3>
         <h1 className="text-[48px]">Cyber Security</h1>
         <p className="text-[16px]">
@@ -14,7 +14,7 @@ const Explore = () => {
           Explore CS
         </button>
       </div>
-      <div className="infrastructure lg:container lg:mx-auto font-[Inter] font-semibold text-white p-5 lg:p-20">
+      <div className="infrastructure lg:container lg:mx-auto  font-semibold text-white p-5 lg:p-20">
         <h3 className="text-[30px]">360D SOUL LTD</h3>
         <h1 className="text-[48px]">INFRASTRUCTURE</h1>
         <p className="text-[16px]">
