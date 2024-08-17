@@ -17,6 +17,22 @@ const logos = [
     name: "Sophos",
     src: "https://i.postimg.cc/mDH43wrS/Frame-42.png",
   },
+  {
+    name: "Microsoft",
+    src: "https://i.postimg.cc/mDH43wrS/Frame-42.png",
+  },
+  {
+    name: "Kaspersky",
+    src: "https://i.postimg.cc/HxrtR1Wy/Kaspersky-logo-svg-removebg-preview.png",
+  },
+  {
+    name: "Oracle",
+    src: "https://i.postimg.cc/mDH43wrS/Frame-42.png",
+  },
+  {
+    name: "Sophos",
+    src: "https://i.postimg.cc/mDH43wrS/Frame-42.png",
+  },
 ];
 
 const GlobalPartners = () => {
@@ -28,8 +44,8 @@ const GlobalPartners = () => {
   };
 
   return (
-    <div className="">
-      <div className="text-4xl text-center font-bold bg-gradient-to-r from-[#013762] via-[#0080E5] bg-clip-text text-transparent">
+    <div className="mt-20">
+      <div className="text-5xl mb-8 text-center font-bold bg-gradient-to-r from-[#013762] via-[#0080E5] bg-clip-text text-transparent">
         Global Partners
       </div>
       <div>
@@ -37,7 +53,7 @@ const GlobalPartners = () => {
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="mx-10 text-2xl flex justify-center"
+              className="mx-10 text-2xl flex justify-center mb-4"
               onClick={() => handleLogoClick(logo)}
             >
               <h1>{logo.name}</h1>

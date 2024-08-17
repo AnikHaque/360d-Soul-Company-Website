@@ -3,6 +3,7 @@ import Main from "../layouts/Main";
 import ErrorPage from "../components/Error/ErrorPage";
 import Root from "../components/Home/Root";
 import ExploreUs from "../components/Others/ExploreUs/ExploreUs";
+import HrStrategy from "../components/Others/HR-Strategy/HrStrategy";
 
 const router = createBrowserRouter([
   {

@@ -17,7 +17,7 @@ const Footer = () => {
             src={logo}
             alt="360d soul logo"
           />
-          <div className=" text-justify text-[#cdcdcd] font-medium font-['Inter']">
+          <div className=" text-justify text-[#cdcdcd] font-medium https://i.postimg.cc/mDH43wrS/Frame-42.png">
             360D SOUL Limited has adopted the highest standards of IT service
             and consultancy quality and operational excellence, enabling its
             clients across a wide range of industries to transform into a truly
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
         </aside>
         <nav>
-          <div className="text-white text-4xl font-bold font-['Inter']">
+          <div className="text-white text-4xl font-bold https://i.postimg.cc/mDH43wrS/Frame-42.png">
             Solutions
             <div className="flex mt-[18px]">
               <span className="border-[3px] border-[#00B4D8] w-[25px]"></span>
@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
         </nav>
         <nav>
-          <div className="text-white text-4xl font-bold font-['Inter']">
+          <div className="text-white text-4xl font-bold https://i.postimg.cc/mDH43wrS/Frame-42.png">
             Services
             <div className="flex mt-[18px]">
               <span className="border-[3px] border-[#00B4D8] w-[25px]"></span>
@@ -105,7 +105,7 @@ const Footer = () => {
           </div>
         </nav>
         <nav>
-          <div className="text-white text-4xl font-bold font-['Inter']">
+          <div className="text-white text-4xl font-bold https://i.postimg.cc/mDH43wrS/Frame-42.png">
             Get In Touch
             <div className="flex mt-[18px]">
               <span className="border-[3px] border-[#00B4D8] w-[25px]"></span>
@@ -135,7 +135,7 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-      <div className="text-center text-[#CDCDCD] pb-10 font-medium font-['Inter']">
+      <div className="text-center text-[#CDCDCD] pb-10 font-medium https://i.postimg.cc/mDH43wrS/Frame-42.png">
         <p>© 2024 Design & Developed By 360D Soul Limited</p>
       </div>
     </div>
