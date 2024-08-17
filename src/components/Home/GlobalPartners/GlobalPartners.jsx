@@ -3,7 +3,7 @@ import { useState } from "react";
 const logos = [
   {
     name: "Microsoft",
-    src: "https://i.postimg.cc/25zhRRG5/png-clipart-microsoft-logo-microsoft-computer-network-text-thumbnail-removebg-preview.png",
+    src: "https://i.postimg.cc/mDH43wrS/Frame-42.png",
   },
   {
     name: "Kaspersky",
@@ -11,11 +11,11 @@ const logos = [
   },
   {
     name: "Oracle",
-    src: "https://i.postimg.cc/25zhRRG5/png-clipart-microsoft-logo-microsoft-computer-network-text-thumbnail-removebg-preview.png",
+    src: "https://i.postimg.cc/mDH43wrS/Frame-42.png",
   },
   {
     name: "Sophos",
-    src: "https://i.postimg.cc/25zhRRG5/png-clipart-microsoft-logo-microsoft-computer-network-text-thumbnail-removebg-preview.png",
+    src: "https://i.postimg.cc/mDH43wrS/Frame-42.png",
   },
 ];
 
@@ -28,25 +28,20 @@ const GlobalPartners = () => {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="">
       <div className="text-4xl text-center font-bold bg-gradient-to-r from-[#013762] via-[#0080E5] bg-clip-text text-transparent">
         Global Partners
       </div>
       <div>
-        <div className="logo-list flex">
+        <div className="logo-list flex container mx-auto">
           {logos.map((logo, index) => (
-            <img
+            <div
               key={index}
-              src={logo.src}
-              alt={logo.name}
+              className="mx-10 text-2xl flex justify-center"
               onClick={() => handleLogoClick(logo)}
-              style={{
-                cursor: "pointer",
-                width: "200px",
-                height: "100px",
-                margin: "10px",
-              }}
-            />
+            >
+              <h1>{logo.name}</h1>
+            </div>
           ))}
         </div>
 
@@ -55,7 +50,7 @@ const GlobalPartners = () => {
             <img
               src={selectedLogo.src}
               alt={selectedLogo.name}
-              style={{ width: "300px", height: "150px", marginTop: "20px" }}
+              style={{ width: "100%", height: "100%", marginTop: "20px" }}
             />
           </div>
         )}
